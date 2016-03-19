@@ -1,0 +1,123 @@
+div {
+    -webkit-user-select: none;
+}
+
+body {
+    font-family: lithosPro;
+}
+
+.card {
+    position: relative;
+    width: 150px;
+    height: 230px;
+    float: left;
+    margin: 0 5px 5px 5px;
+    border-radius: 11px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card.green {
+    background: #81BA81;
+}
+
+.card.blue {
+    background: #738EFF;
+}
+
+.card.red {
+    background: #DB3438;
+}
+
+.card.purple {
+    background: #871D97;
+}
+
+#results_container {
+    width: 802px;
+    height: 550px;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+
+.roll {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 0 5px 0;
+}
+
+.name {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+.cost {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    border-radius: 25px;
+    background: yellow;
+    width: 25px;
+    height: 25px;
+    border: 3px solid #FFC761;
+    line-height: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#randomise {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    background: yellow;
+    width: 225px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 3px solid #FFC761;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;  
+    cursor: pointer;  
+    box-shadow: 0 0 5px 1px grey;
+    left: 50%;
+    margin-left: -112px;
+}
+
+#randomise:hover {
+}
+
+#randomise:active {
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    margin-top: -20px;
+    line-height: 40px;
+    margin-left: -100px;
+}
+
+.rule {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    color: white;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+#footer {
+    position: relative;
+    height: 50px;
+}
+
+@font-face {
+   font-family: lithosPro;
+   src: url(../fonts/lithos_pro.ttf);
+}
